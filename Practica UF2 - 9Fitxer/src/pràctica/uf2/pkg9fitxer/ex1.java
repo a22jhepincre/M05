@@ -8,8 +8,18 @@ public class ex1 {
     public static void main(String[] args) {
         
         int num = s.nextInt();
-        int resultat = m3(num);
+        int resultat = m1(num);
         System.out.println("Resultat: " + resultat);
+    }
+    static int m1 (int n){
+        int resultat = n;
+        
+        while(n != 1){
+            n--;
+            resultat *= n;
+        }
+        
+        return resultat;
     }
     static int m3(int n){
         int result = 0;
