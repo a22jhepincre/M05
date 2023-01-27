@@ -17,7 +17,7 @@ public class ex1 {
         PrintWriter pw = new PrintWriter(writer);
 
         String cadena;
-
+        
         cadena = s.nextLine();
         pw.println(cadena);
         pw.flush();
